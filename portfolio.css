@@ -1,0 +1,34 @@
+body {
+
+background-color: #ffffff;
+font-family: Verdana;
+font-size: 16px;
+color: #000000
+}
+
+p {
+	display: inline;
+}
+.image_w_text {width:30%;text-align:center; margin: 0px; padding: 0px;display: inline}
+.image_w_text img {border:1px solid gray}
+.image_w_text p {font-style:italic; font-size:10px} 
+.img-circle {
+
+    border-radius: 50%;
+    width: 50%
+}
+
+.bildentre {
+	width: 30%
+}
+
+.bildtext {
+	width: 30%;
+	margin: 0px;
+	padding: 0px;
+	display: inline;
+} 
+
+figure {
+	margin: 0px;
+	display: inline;
