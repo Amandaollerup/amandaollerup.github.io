@@ -19,12 +19,13 @@ h1 {
 	font-size: 40px;
 	margin top: 10px;
 	padding: 0px;
+	color: #ffffff;
 }
 
 h2 {
 	font-family:"Quicksand", sans-serif; 
 	font size: 15px;
-	margin bottom: 15px;
+	margin bottom: 0px;
 	color: #737373;
 }
 
@@ -49,7 +50,7 @@ h3 {
 }
 .social {
 	height: 60px;
-	margin: 5px;
+	margin bottom: 100px;
 }
 
 .img-responsive-margin {
@@ -74,7 +75,7 @@ position: relative;
    }
 
 .margin {
-	margin: 0px;
+	margin: 1px;
 }
 
 @media only screen and (min-width: 1000px) {
