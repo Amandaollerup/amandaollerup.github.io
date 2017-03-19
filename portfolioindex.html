@@ -19,9 +19,11 @@
   p {font-size: 16px;}
   .margin {margin-bottom: 45px;}
   .bg-1 { 
-      background-color: #66cc99; /* Green */
-      color: #ffffff;
+  	background-image: url(../bilder/header.jpg);
+  	background-repeat: no-repeat; 
+	background-size: cover; 
   }
+
   .bg-2 { 
       background-color: #e0ebeb; /* Dark Blue */
       color: #ffffff;
@@ -76,10 +78,29 @@
 </nav>
 
 <!-- First Container -->
-<div class="container-fluid bg-1 text-center">
+<style>
+.parallax { 
+    /* The image used */
+    background-image: url(../bilder/header.jpg);
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+</style>
+
+<!-- Container element -->
+<div class="parallax">
+<center>
+<br>
   <img class="logo" src="../bilder/logobasic.png" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="500">
 	    <h1>Start Up For Start Up's</h1>
-	<h2>Start your start up here</h2>	
+		
 
 	<a href="www.linkedin.com"><img class="social" src="../bilder/linkedin.png"></a>
 	<a href="www.linkedin.com"><img class="social" src="../bilder/fb.png"></a>
@@ -89,27 +110,28 @@
 
 <!-- Third Container (Grid) -->
 <div class="container-fluid bg-3 text-center">    
-  <h2 class="margin">What do we do?</h2><br>
+  <h2 class="margin">What do we do?</h2>
+  <hr width="25%" align="center">
   <div class="row">
     <div class="col-sm-4">
     	<h3><bold>Logo</bold></h3>
-      <p>As a start-up, you will need a logo. We create custom made logos based on your business idea and our creative minds <br><a>Read more</a></p>
-      <img src="../bilder/createlogo.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+      	<p>As a start-up, you will need a logo. We create custom made logos based on your business idea and our creative minds <br><a>Read more</a></p>
+      	<img src="../bilder/createlogo.jpg" class="img-responsive margin" style="width:100%" alt="Image">
     </div>
+    
     <div class="col-sm-4"> 
-    <h3><bold>Website</bold></h3>
-      <p>Make sure your brand is visible on all devices with a user friendly, mobile-responsive website <br><a>Read more</a></p>
-      <img src="../bilder/website.jpg" class="img-responsive margin" style="width:100%" alt="Image">
-      </div>
+    	<h3><bold>Website</bold></h3>
+      	<p>Make sure your brand is visible on all devices with a user friendly, mobile-responsive website <br><a>Read more</a></p>
+      	<img src="../bilder/website.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+     </div>
+       
        <div class="col-sm-4"> 
        <h3><bold>Social platforms</bold></h3>
-      <p>Are you on the right social plattforms? As you probably already know, social media is where your customers engage in your brand <br><a>Read more</a></p>
+      	<p>Are you on the right social plattforms? As you probably already know, social media is where your customers engage in your brand <br><a>Read more</a></p>
       <img src="../bilder/social.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+	</div>
 </div>
 
-<br>
-<br>
-<br>
 
 
 	<head>
@@ -131,7 +153,7 @@
 <!-- fourth Container -->
 <div class="container-fluid bg-2 text-center">
      <h2>Price</h2>
-     <br>
+     <hr width="25%" align="center">
      <h3>We know, as a start up, recourses are limited. Thats why our prices are friendly</h3>
 <br>
 <img src="../bilder/logorund.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="200" height="350">
@@ -143,6 +165,31 @@
   <br>
   </div>
 
+<!-- Fifth Container (Grid) -->
+<div class="container-fluid bg-3 text-center">    
+  <h2 class="margin">Who are you?</h2>
+  <h4>Well,we don't care. To us you can be anyone.</h4>
+  <hr width="25%" align="center">
+  <div class="row">
+    <div class="col-sm-4">
+    	<h3><bold>Logo</bold></h3>
+      	<p>As a start-up, you will need a logo. We create custom made logos based on your business idea and our creative minds <br><a>Read more</a></p>
+      	<img src="../bilder/createlogo.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    
+    <div class="col-sm-4"> 
+    	<h3><bold>Website</bold></h3>
+      	<p>Make sure your brand is visible on all devices with a user friendly, mobile-responsive website <br><a>Read more</a></p>
+      	<img src="../bilder/website.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+     </div>
+       
+       <div class="col-sm-4"> 
+       <h3><bold>Social platforms</bold></h3>
+      	<p>Are you on the right social plattforms? As you probably already know, social media is where your customers engage in your brand <br><a>Read more</a></p>
+      <img src="../bilder/social.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+	</div>
+</div>
+
 
 </div>
 
@@ -153,3 +200,5 @@
 
 </body>
 </html>
+
+
