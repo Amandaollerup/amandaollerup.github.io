@@ -1,34 +1,93 @@
 body {
 
-background-color: #ffffff;
-font-family: Verdana;
-font-size: 16px;
+background-color: #f2f2f2;
+font-family: "Quicksand", sans-serif;
+font-size: 25px;
 color: #000000
 }
 
-p {
-	display: inline;
+.header {
+	width: 100%
 }
-.image_w_text {width:30%;text-align:center; margin: 0px; padding: 0px;display: inline}
-.image_w_text img {border:1px solid gray}
-.image_w_text p {font-style:italic; font-size:10px} 
-.img-circle {
 
+.center {
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 40px;
+	margin top: 10px;
+	padding: 0px;
+}
+
+h2 {
+	font-family:"Quicksand", sans-serif; 
+	font size: 15px;
+	margin bottom: 15px;
+	color: #737373;
+}
+
+h3 {
+	font-family:"Quicksand", sans-serif; 
+	font size: 12px;
+	margin: 0px;
+	color: #194d33;
+
+}
+
+.logo {
+	margin: 0px;
+}
+
+.img-circle {
     border-radius: 50%;
-    width: 50%
 }
 
 .bildentre {
 	width: 30%
 }
+.social {
+	height: 60px;
+	margin: 5px;
+}
 
-.bildtext {
-	width: 30%;
-	margin: 0px;
-	padding: 0px;
-	display: inline;
-} 
+.img-responsive-margin {
+	height: 100px
+}
+.img {
+	margin: 10px;
+}
 
-figure {
+footer {
+	background-color: #252525;
+    padding: 100px;	
+}
+
+.footer-text {
+	color: ffffff;
+	font-size: 16px;
+}
+
+.image-with-text  { 
+position: relative; 
+   }
+
+.margin {
 	margin: 0px;
-	display: inline;
+}
+
+@media only screen and (min-width: 1000px) {
+	.image-with-text {
+		display: inline-block;
+		padding: 10px; 
+		margin-top: 20px;
+		margin-bottom: 100px;
+	}
+}
+
+
+
+
+
+
